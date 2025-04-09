@@ -22,7 +22,13 @@ Here are some of the projects I've been working on:
 A user-friendly Todo application that allows users to manage their tasks efficiently. The app features form validation, unique IDs for tasks, and the ability to add and delete todos.
 
 ### SE Project Spots
-A project that showcases different spots using CSS. This project is a great example of my CSS skills and creativity.
+- A project showcasing unique spots through creative and interactive designs.
+- Recent updates include:
+  - Fully responsive design for both desktop and mobile views.
+  - Improved CSS and layout for the delete modal.
+  - Enhanced functionality for the avatar edit button across all screens.
+- Highlighting advanced CSS techniques and JS integration for dynamic user experiences.
+- [View Project](https://github.com/iiBamBlue/se_project_spots)
 
 ## Get in Touch
 Feel free to reach out to me if you have any questions, collaboration ideas, or just want to say hi! You can contact me at:
