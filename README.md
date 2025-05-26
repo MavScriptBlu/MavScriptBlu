@@ -50,4 +50,4 @@ Here are some of the technologies and tools I work with:
 
 ## Get in Touch
 Feel free to reach out if you have any questions, collaboration ideas, or just want to say hi!  
- - [LinkedIn](https://www.linkedin.com/in/darien-blue/) 
+Link Removed for Security
