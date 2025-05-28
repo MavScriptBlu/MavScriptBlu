@@ -10,6 +10,8 @@ Here are some of the technologies and tools I work with:
 - **Tools and Platforms**: Git, GitHub, VSCode
 - **Other Skills**: Form Validation, Object-Oriented Programming (OOP)
 
+  <a href="https://app.daily.dev/builtdifferentblue"><img src="https://api.daily.dev/devcards/v2/qa4PlO5l2vKRMyYaCAwoC.png?type=default&r=m6y" width="356" alt="Blue's Dev Card"/></a>
+
 ## Projects
 
 ### Simple Todo App
