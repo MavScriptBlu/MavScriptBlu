@@ -2,6 +2,8 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# registries: gradle-artifactory - provides access details for the gradle-artifactory registry
+# registries: "*" - allows Dependabot to use all the defined registries specified at the top level
 
 version: 2
 updates:
@@ -9,4 +11,4 @@ updates:
   directory: "/" # Location of package manifests
   schedule:
     interval: "daily"
-    token: "${{secrets.USER_ID}}"
+  user-id: "${{secrets.USER_ID}}"
