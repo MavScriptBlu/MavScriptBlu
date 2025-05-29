@@ -13,5 +13,5 @@ jobs:
       - name: Fetch DevCard
         uses: dailydotdev/action-devcard@3.2.1
         with:
-          daily_dev_id: ${{ secrets.DAILY_DEV_ID }}
+          user_id: ${{ secrets.DAILY_DEV_ID }}
 
