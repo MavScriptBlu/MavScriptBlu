@@ -12,14 +12,14 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
-    registries:
-      - "my-private-registry"
+      
 
-registries:
-  my-private-registry:
-    type: "npm-registry"
-    url: "https://npm.pkg.github.com"
-    token: "${{secrets.USER_ID}}"
+# registries:
+ # my-private-registry:
+  #  type: "npm-registry"
+   # url: "https://npm.pkg.github.com"
+    # token: "${{secrets.USER_ID}}"
