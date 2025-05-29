@@ -1,3 +1,5 @@
+# Workflow to update the DevCard daily
+
 name: Update DevCard
 on:
   schedule:
@@ -14,4 +16,3 @@ jobs:
         uses: dailydotdev/action-devcard@3.2.1
         with:
           user_id: ${{ secrets.DAILY_DEV_ID }}
-
