@@ -16,7 +16,8 @@ updates:
     schedule:
       interval: "daily"
     registries:
-      - my-private-registry
+      - "my-private-registry"
+
 registries:
   my-private-registry:
     type: "npm-registry"
