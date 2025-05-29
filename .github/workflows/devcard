@@ -12,7 +12,10 @@ jobs:
     permissions:
       contents: write
     steps:
-   - name: @dailydotdev/devcard
-  uses: dailydotdev/action-devcard@3.2.1
+      - name: devcard
+        uses: dailydotdev/action-devcard@3.2.1
         with:
           user_id: ${{ secrets.USER_ID }}
+          commit_branch: devcard
+          commit_filename: devcard.png
+          commit_message: "chore: update ${filename}"
