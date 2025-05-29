@@ -2,10 +2,24 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-version: 2
-updates:
+ # version: 2
+# updates:
   # Maintain dependencies for GitHub Actions
-  - package-ecosystem: "github-actions"
+#  - package-ecosystem: "github-actions"
+ #   directory: "/"
+  #  schedule:
+   #   interval: "daily"
+version: 2
+registries:
+  my-private-registry:
+    type: "npm-registry"
+    url: "https://npm.pkg.github.com"
+    token: "${{secrets.USER_ID}}"
+
+updates:
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "weekly"
+    registries:
+      - "my-private-registry"
