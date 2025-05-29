@@ -14,6 +14,15 @@ jobs:
         uses: dailydotdev/action-devcard@3.2.1
         with:
           user_id: ${{ secrets.USER_ID }}
+      
+      - name: Validate File Format
+        run: |
+          if file /tmp/devcard.png | grep -q "PNG image data"; then
+            echo "Valid PNG file detected."
+          else
+            echo "Invalid PNG file format detected."
+            exit 1
+          fi
 
       - name: Debug File Format
         run: |
