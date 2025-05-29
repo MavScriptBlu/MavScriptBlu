@@ -10,16 +10,15 @@
   #  schedule:
    #   interval: "daily"
 version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    registries:
+      - my-private-registry
 registries:
   my-private-registry:
     type: "npm-registry"
     url: "https://npm.pkg.github.com"
     token: "${{secrets.USER_ID}}"
-
-updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    registries:
-      - "my-private-registry"
