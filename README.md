@@ -53,4 +53,7 @@ Here are some of the technologies and tools I work with:
 ## Get in Touch
 Feel free to reach out if you have any questions, collaboration ideas, or just want to say hi!  
 Link Removed for Security
+
+---
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z8Z0LE3N)
