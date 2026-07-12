@@ -1,4 +1,8 @@
 # Hi there 👋 I'm Blue, a software developer with a knack for problem-solving and a passion for learning. 🌟
+<p align="center">
+  <img src="https://github-readme-widget-one.vercel.app/assets/active_red_panda.svg" width="120" />
+</p>
+
 
 ## About Me
 I'm based in Wisconsin and enjoy working on various projects that challenge my skills and expand my knowledge. I'm particularly interested in web development, software engineering, and anything related to coding. When I'm not coding, you can find me exploring new technologies, reading, or enjoying the great outdoors.
@@ -11,6 +15,8 @@ Here are some of the technologies and tools I work with:
 - **Other Skills**: Form Validation, Object-Oriented Programming (OOP)
 
  <a href="https://app.daily.dev/mavscript"><img src="./devcard.png" width="356" alt="Blue's Dev Card"/></a>
+
+
 
 ## Projects
 
